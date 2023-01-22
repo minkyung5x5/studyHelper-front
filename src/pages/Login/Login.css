@@ -20,7 +20,7 @@
 .password {
   box-sizing: border-box;
   background: #313131;
-  /* width: calc(50% - -175px); */
+  color: #fff;
   width: 100%;
   height: 50px;
   margin-bottom: 10px;
@@ -35,7 +35,6 @@
 #keepLogin + label {
   cursor: pointer;
   font-size: 0.86em;
-  display: flex;
   line-height: 2em;
 }
 
@@ -62,12 +61,17 @@
 
 /* 회원가입 버튼 */
 .loginSignup {
-  color: #3cd36c;
   font-size: 0.86em;
-  position: absolute;
-  right: 5vw;
-  top: 111vw;
-  /* margin-left: calc(50% - 41.25vw); */
+  text-align: center;
+  margin-top: 1.43em;
+  margin-bottom: 4.36em;
+}
+.loginSignup a {
+  color: #3cd36c;
+}
+.loginSignup span {
+  margin: 0 19px;
+  color: #3cd36c;
 }
 
 /* 로그인버튼 */
@@ -83,11 +87,7 @@
 }
 
 /* 소셜 로그인 */
-.Oauth:nth-last-child(1) {
-  margin-top: 10px;
-}
 .Oauth {
-  margin-top: 4.36em;
   width: 100%;
   font-size: 1.29em;
   font-weight: 700;
@@ -97,4 +97,5 @@
   border: 1px solid #3cd36c;
   padding: 18px 0;
   text-align: center;
+  margin-bottom: 10px;
 }
