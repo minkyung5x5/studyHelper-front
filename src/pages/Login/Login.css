@@ -1,6 +1,6 @@
 /* 로고 */
 .LoginWrap {
-  width: 100%;
+  padding: 0 20px;
 }
 .loginLogo {
   width: 208px;

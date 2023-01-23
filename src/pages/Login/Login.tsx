@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function Login() {
-  const [testStr, setTestStr]: any = useState("");
+  const [testStr, setTestStr] = useState("");
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
 
@@ -23,8 +23,8 @@ function Login() {
   };
 
   // 변수 초기화
-  function callback(str: any) {
-    setTestStr(str);
+  function callback(handleSubmit: string) {
+    setTestStr(handleSubmit);
   }
 
   // 첫 번째 렌더링을 마친 후 실행
