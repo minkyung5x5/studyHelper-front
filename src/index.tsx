@@ -6,8 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8080/user/login";
-axios.defaults.withCredentials = true;
+axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.headers.post["Content-Type"] = "application/json; charset=utf-8";
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 
 root.render(
