@@ -1,7 +1,7 @@
 function Main() {
   return (
     <div>
-      <div></div>
+      <div>메인페이진데얌</div>
     </div>
   );
 }

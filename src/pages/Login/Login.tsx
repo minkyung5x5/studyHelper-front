@@ -39,8 +39,8 @@ function Login() {
       <form className="loginForm" onSubmit={handleSubmit}>
         <input onChange={onEmailHandler} value={email} className="email" type="email" placeholder="이메일" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required title="이메일 형식에 맞춰주세요." />
         <input onChange={onPasswordHandler} value={password} className="password" type="password" placeholder="비밀번호" minLength={8} maxLength={20} required />
-        <input type="checkbox" id="keepLogin" />
-        <label htmlFor="keepLogin">로그인 유지</label>
+        <input type="checkbox" id="checkBox" />
+        <label htmlFor="checkBox">로그인 유지</label>
         <input className="login" type="submit" value="로그인" />
       </form>
 

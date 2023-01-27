@@ -28,18 +28,18 @@
   padding: 18px 0 18px 12px;
 }
 /* 체크박스 */
-#keepLogin {
+#checkBox {
   display: none;
 }
 
-#keepLogin + label {
+#checkBox + label {
   cursor: pointer;
   font-size: 0.86em;
   line-height: 2em;
 }
 
 /* label:before에 체크하기 전 상태 CSS */
-#keepLogin + label:before {
+#checkBox + label:before {
   content: "";
   display: inline-block;
   width: 20px;
@@ -51,7 +51,7 @@
 }
 
 /* label:before에 체크 된 상태 CSS */
-#keepLogin:checked + label:before {
+#checkBox:checked + label:before {
   content: "✔";
   background-color: #212121;
   border-color: #212121;
